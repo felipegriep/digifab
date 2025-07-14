@@ -6,6 +6,7 @@
 - [Principais Funcionalidades](#principais-funcionalidades)
 - [Decisões Arquiteturais Relevantes](#decisões-arquiteturais-relevantes)
 - [C4 Model](#c4-model)
+- [UML](#uml)
 - [Restrições Técnicas](#restrições-técnicas)
 - [Estilos e Padrões Arquitetônicos](#estilos-e-padrões-arquitetônicos)
 - [Atributos de Qualidade Considerados](#atributos-de-qualidade-considerados)
