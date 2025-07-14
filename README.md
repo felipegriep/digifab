@@ -1,6 +1,7 @@
 # 🏭 DigiFab - Sistema de Rastreabilidade MES
 
 ## Índice
+- [Sobre o Projeto](#sobre-o-projeto)
 - [Visão do Sistema](#visão-do-sistema)
 - [Principais Funcionalidades](#principais-funcionalidades)
 - [Decisões Arquiteturais Relevantes](#decisões-arquiteturais-relevantes)
@@ -10,6 +11,24 @@
 - [Atributos de Qualidade Considerados](#atributos-de-qualidade-considerados)
 - [Principais Desafios Arquiteturais](#principais-desafios-arquiteturais)
 - [Conclusão](#conclusão)
+
+## Sobre o Projeto
+
+Este projeto foi desenvolvido como avaliação do curso de **Pós-Graduação em Engenharia de Software** da **Universidade do Vale do Rio dos Sinos (UNISINOS)**. Ele se baseia em um **caso de ensino** proposto para o ano de 2025, com foco na rastreabilidade da cadeia de suprimentos de uma indústria de bens de consumo.
+
+A iniciativa busca aplicar, de forma prática e integrada, conceitos avançados de arquitetura de software — incluindo modelagem C4, decisão arquitetural (ADRs), atributos de qualidade, e uso de padrões modernos como microsserviços, autenticação federada e arquitetura orientada a eventos.
+
+Além de cumprir os requisitos acadêmicos, o projeto também visa demonstrar a viabilidade de soluções arquiteturais robustas e escaláveis aplicáveis em cenários reais.
+
+> **Instituição:** Universidade do Vale do Rio dos Sinos (UNISINOS)  
+> **Curso:** Pós-Graduação em Engenharia de Software  
+> **Base:** Caso de Ensino – Startup 2025 (Sistema DigiFab)
+> **Integrantes do Grupo**
+> - Felipe Griep
+> - Giulia Mendes
+> - Rosival de Souza
+> - Suriel Jacobsen
+> - Tiago Zardin 
 
 ## Visão do Sistema
 O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastreabilidade na cadeia de suprimentos industriais, alinhada às diretrizes de um **Manufacturing Execution System (MES)**.
