@@ -8,6 +8,7 @@
 - [Estilos e Padrões Arquitetônicos](#estilos-e-padrões-arquitetônicos)
 - [Atributos de Qualidade Considerados](#atributos-de-qualidade-considerados)
 - [Principais Desafios Arquiteturais](#principais-desafios-arquiteturais)
+- [Conclusão](#conclusão)
 
 ## Visão do Sistema
 O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastreabilidade na cadeia de suprimentos industriais, alinhada às diretrizes de um **Manufacturing Execution System (MES)**.
@@ -60,3 +61,10 @@ O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastrea
 - Equilíbrio entre desempenho, rastreabilidade e resiliência;
 - Complexidade operacional (Kafka, Keycloak, Kubernetes);
 - Suporte a retenção de dados e auditoria externa.
+
+## Conclusão
+O projeto DigiFab representa uma iniciativa estratégica voltada à transformação digital de processos industriais, com foco na rastreabilidade da produção e conformidade regulatória. A arquitetura proposta alinha-se às melhores práticas modernas de desenvolvimento de software distribuído, combinando escalabilidade, segurança e flexibilidade.
+
+As decisões arquiteturais adotadas — como o uso de Apache Kafka, Keycloak, AWS EKS e Amazon S3 — refletem o compromisso com um ecossistema robusto, extensível e preparado para os desafios da indústria 4.0. A escolha por uma arquitetura orientada a eventos e uma infraestrutura baseada em microsserviços permite que o sistema evolua continuamente, respondendo com agilidade às necessidades do negócio.
+
+Com isso, o DigiFab se consolida como uma base tecnológica sólida para a gestão eficiente e auditável da cadeia de suprimentos, contribuindo diretamente para a excelência operacional e a competitividade industrial.
