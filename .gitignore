@@ -1,0 +1,32 @@
+# Diretórios de build
+target/
+out/
+build/
+
+# Arquivos de classe compilados
+*.class
+
+# Arquivos de projeto IDE
+.idea/
+.project
+.classpath
+.settings/
+
+# Arquivos de configuração local
+*.iml
+*.log
+*.properties
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de dependências (Node.js)
+node_modules/
+
+# Arquivos de sistema
+.DS_Store
+thumbs.db
+
+# Arquivos de log
+*.log
