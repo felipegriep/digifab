@@ -6,6 +6,7 @@ Este documento explica como visualizar o modelo de arquitetura C4 descrito no ar
 - [Requisitos](#-requisitos)
 - [1. Usando o Structurizr Lite (local)](#️-1-usando-o-structurizr-lite-local)
 - [2. Usando via Structurizr Web](#-2-usando-via-structurizr-web)
+- [Offline](#3-offline-aqui)
 - [Dicas adicionais](#️-dicas-adicionais)
 - [Links úteis](#-links-úteis)
 ---
