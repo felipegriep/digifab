@@ -58,6 +58,9 @@ O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastrea
 ## C4 Model
 Para visualizar o diagrama C4 Model, [clique aqui](docs/c4/c4-model.md).
 
+## UML
+Para visualizar os diagramas UML's, [clique aqui](docs/uml/uml.md).
+
 ## Restrições Técnicas
 - Backend baseado em eventos via Apache Kafka;
 - Autenticação e autorização centralizadas com Keycloak;
