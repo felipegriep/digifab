@@ -1,1 +1,62 @@
-# digifab
+# 🏭 DigiFab - Sistema de Rastreabilidade MES
+
+## Índice
+- [Visão do Sistema](#visão-do-sistema)
+- [Principais Funcionalidades](#principais-funcionalidades)
+- [Decisões Arquiteturais Relevantes](#decisões-arquiteturais-relevantes)
+- [Restrições Técnicas](#restrições-técnicas)
+- [Estilos e Padrões Arquitetônicos](#estilos-e-padrões-arquitetônicos)
+- [Atributos de Qualidade Considerados](#atributos-de-qualidade-considerados)
+- [Principais Desafios Arquiteturais](#principais-desafios-arquiteturais)
+
+## Visão do Sistema
+O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastreabilidade na cadeia de suprimentos industriais, alinhada às diretrizes de um **Manufacturing Execution System (MES)**.
+
+## Principais Funcionalidades
+- Registro da origem da matéria-prima por lote;
+- Onboarding de usuários com diferentes perfis (gerentes, operadores);
+- Geração de trilhas de auditoria e retenção de dados;
+- Armazenamento e recuperação de documentos (via Amazon S3);
+- Processamento e monitoramento de eventos em tempo real;
+- Gerenciamento de perfis e permissões;
+- Rastreabilidade da cadeia produtiva.
+
+## Decisões Arquiteturais Relevantes
+- [0001 - Uso do Kafka](./docs/adr/0001-use-kafka-for-event-streaming.md): O Apache Kafka será adotado para transmissão de eventos de produção de forma assíncrona e escalável, permitindo desacoplamento entre componentes.
+- [0002 - Uso do Keycloak](./docs/adr/0002-use-keycloak-for-auth.md): A autenticação e autorização de usuários serão centralizadas via Keycloak, fornecendo suporte a múltiplos perfis e integrações com SSO.
+- [0003 - Onboarding Integrado](./docs/adr/0003-integrated-onboarding.md): A experiência de entrada no sistema será unificada para promover usabilidade e coerência entre diferentes perfis.
+- [0004 - Implantação em AWS EKS](./docs/adr/0004-deploy-on-aws-eks.md): A infraestrutura será orquestrada em Kubernetes via Amazon EKS, permitindo escalabilidade, alta disponibilidade e governança de serviços.
+- [0005 - Gerenciamento de Documentos com S3](./docs/adr/0005-document-management-with-s3.md): Arquivos e documentos (como certificados e relatórios de produção) serão armazenados no Amazon S3, garantindo integridade e versionamento.
+- [0006 - Processamento de Alertas em Streaming](./docs/adr/0006-stream-processing-alerts.md): Alertas de produção serão processados em tempo real para rápida reação a falhas ou desvios.
+- [0007 - Trilhas de Auditoria e Retenção](./docs/adr/0007-audit-trails-and-data-retention.md): O sistema manterá logs completos de ações críticas com suporte à retenção baseada em políticas.
+- [0008 - Perfis e Interface de Onboarding](./docs/adr/0008-user-profiles-and-onboarding-ui.md): Interface adaptável à jornada de diferentes usuários, com foco em produtividade e segurança.
+
+## Restrições Técnicas
+- Backend baseado em eventos via Apache Kafka;
+- Autenticação e autorização centralizadas com Keycloak;
+- Armazenamento de documentos exclusivamente em Amazon S3;
+- Implantação em nuvem AWS utilizando EKS;
+- Sistema 100% web responsivo (sem app mobile);
+- Suporte a trilhas de auditoria e conformidade industrial.
+
+## Estilos e Padrões Arquitetônicos
+- Arquitetura Orientada a Eventos (EDA);
+- Microsserviços;
+- Kubernetes (via Amazon EKS);
+- Autenticação federada com OAuth2/OpenID Connect;
+- Infraestrutura como Código.
+
+## Atributos de Qualidade Considerados
+- Escalabilidade horizontal;
+- Alta disponibilidade e resiliência;
+- Segurança e controle de acesso;
+- Auditoria e conformidade normativa;
+- Boa experiência de uso e adaptabilidade por perfil;
+- Extensibilidade e desacoplamento.
+
+## Principais Desafios Arquiteturais
+- Consistência eventual em um ambiente assíncrono;
+- Segurança sem prejudicar a usabilidade;
+- Equilíbrio entre desempenho, rastreabilidade e resiliência;
+- Complexidade operacional (Kafka, Keycloak, Kubernetes);
+- Suporte a retenção de dados e auditoria externa.
