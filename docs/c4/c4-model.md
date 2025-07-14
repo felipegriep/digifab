@@ -31,10 +31,10 @@ Este documento explica como visualizar o modelo de arquitetura C4 descrito no ar
 
    Exemplo de estrutura:
    ```text
-        structurizr-lite/
-        ├── structurizr-lite.war
-        └── workspace/
-        └── c4-model.dsl
+   structurizr-lite/
+   ├── structurizr-lite.war
+   └── workspace/
+   └── c4-model.dsl
    ```
 3. **Execute o Structurizr Lite**:
 - Via terminal, dentro do diretório `structurizr-lite`, execute:
@@ -69,13 +69,13 @@ Este documento explica como visualizar o modelo de arquitetura C4 descrito no ar
 
 ## 3. Offline (aqui):
 1. **Visão Geral do Sistema (Nível 1)**
-![Nível 1](docs/c4/images/structurizr-1-SystemContext-001.png)
+![Nível 1](./images/structurizr-1-SystemContext-001.png)
 
 2. **Visão de Container (Nível 2)**
-![Nível 2](docs/c4/images/structurizr-1-Container-001.png)
+![Nível 2](./images/structurizr-1-Container-001.png)
 
 3. **Legendas**
-![Legenda 1](docs/c4/images/structurizr-1-Container-001-key.png)
+![Legenda 1](./images/structurizr-1-Container-001-key.png)
 
 ---
 
