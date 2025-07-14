@@ -20,9 +20,12 @@ A iniciativa busca aplicar, de forma prática e integrada, conceitos avançados 
 
 Além de cumprir os requisitos acadêmicos, o projeto também visa demonstrar a viabilidade de soluções arquiteturais robustas e escaláveis aplicáveis em cenários reais.
 
-**Instituição:** Universidade do Vale do Rio dos Sinos (UNISINOS)  
-**Curso:** Pós-Graduação em Engenharia de Software  
+**Instituição:** Universidade do Vale do Rio dos Sinos (UNISINOS)
+
+**Curso:** Pós-Graduação em Engenharia de Software
+
 **Base:** Caso de Ensino – Startup 2025 (Sistema DigiFab)
+
 **Integrantes do Grupo:**
 - Felipe Griep
 - Giulia Mendes
