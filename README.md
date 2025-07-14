@@ -4,6 +4,7 @@
 - [Visão do Sistema](#visão-do-sistema)
 - [Principais Funcionalidades](#principais-funcionalidades)
 - [Decisões Arquiteturais Relevantes](#decisões-arquiteturais-relevantes)
+- [C4 Model](#c4-model)
 - [Restrições Técnicas](#restrições-técnicas)
 - [Estilos e Padrões Arquitetônicos](#estilos-e-padrões-arquitetônicos)
 - [Atributos de Qualidade Considerados](#atributos-de-qualidade-considerados)
@@ -31,6 +32,9 @@ O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastrea
 - [0006 - Processamento de Alertas em Streaming](./docs/adr/0006-stream-processing-alerts.md): Alertas de produção serão processados em tempo real para rápida reação a falhas ou desvios.
 - [0007 - Trilhas de Auditoria e Retenção](./docs/adr/0007-audit-trails-and-data-retention.md): O sistema manterá logs completos de ações críticas com suporte à retenção baseada em políticas.
 - [0008 - Perfis e Interface de Onboarding](./docs/adr/0008-user-profiles-and-onboarding-ui.md): Interface adaptável à jornada de diferentes usuários, com foco em produtividade e segurança.
+
+## C4 Model
+Para visualizar o diagrama C4 Model, [clique aqui](docs/c4/c4-model.md).
 
 ## Restrições Técnicas
 - Backend baseado em eventos via Apache Kafka;
