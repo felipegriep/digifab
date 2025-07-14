@@ -6,6 +6,7 @@
 - [Principais Funcionalidades](#principais-funcionalidades)
 - [Decisões Arquiteturais Relevantes](#decisões-arquiteturais-relevantes)
 - [C4 Model](#c4-model)
+- [Architecture Haiku](#architecture-haiku)
 - [UML](#uml)
 - [Restrições Técnicas](#restrições-técnicas)
 - [Estilos e Padrões Arquitetônicos](#estilos-e-padrões-arquitetônicos)
@@ -58,6 +59,9 @@ O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastrea
 
 ## C4 Model
 Para visualizar o diagrama C4 Model, [clique aqui](docs/c4/c4-model.md).
+
+## Architecture Haiku
+Para visualizar a Architecture Haiku, [clique aqui](docs/haiku/architecture-haiku.md)
 
 ## UML
 Para visualizar os diagramas UML's, [clique aqui](docs/uml/uml.md).
