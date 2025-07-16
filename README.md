@@ -37,7 +37,7 @@ Além de cumprir os requisitos acadêmicos, o projeto também visa demonstrar a 
 
 ## Visão do Sistema
 
-![Logo DigiFab](images/digifab.png)
+![Logo DigiFab](images/logo-digifab.png)
 
 O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastreabilidade na cadeia de suprimentos industriais, alinhada às diretrizes de um **Manufacturing Execution System (MES)**.
 
