@@ -1,4 +1,4 @@
-# 🏭 DigiFab - Sistema de Rastreabilidade MES
+# 🏭 DigiFab - Sistema MES (Manufacturing Execution System)
 
 ## Índice
 - [Sobre o Projeto](#sobre-o-projeto)
@@ -24,9 +24,9 @@ Além de cumprir os requisitos acadêmicos, o projeto também visa demonstrar a 
 
 **Instituição:** Universidade do Vale do Rio dos Sinos (UNISINOS)
 
-**Curso:** Pós-Graduação em Engenharia de Software
+**Curso:** Pós-Graduação Lato Sensu em Engenharia de Software
 
-**Base:** Caso de Ensino – Startup 2025 (Sistema DigiFab)
+**Base:** Caso de Ensino – Startup 2025
 
 **Integrantes do Grupo:**
 - Felipe Griep
@@ -36,6 +36,9 @@ Além de cumprir os requisitos acadêmicos, o projeto também visa demonstrar a 
 - Tiago Zardin 
 
 ## Visão do Sistema
+
+![Logo DigiFab](images/digifab.png)
+
 O sistema em desenvolvimento é uma plataforma web responsiva voltada à rastreabilidade na cadeia de suprimentos industriais, alinhada às diretrizes de um **Manufacturing Execution System (MES)**.
 
 ## Principais Funcionalidades
